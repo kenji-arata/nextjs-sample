@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^7.2.0",
     "dayjs": "^1.11.13",
     "jotai": "^2.12.5",
     "jotai-location": "^0.6.1",
