@@ -8,7 +8,7 @@ export default function RootLayout({
   return (
     <html>
       <body>
-        <h1 className="text-blue-500 mb-2">Title</h1>
+        <h1 className="text-5xl mb-2">Title</h1>
         {children}
       </body>
     </html>
