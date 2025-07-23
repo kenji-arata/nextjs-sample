@@ -1,4 +1,5 @@
 import "@/app/ui/global.css";
+import { comic } from "@/app/ui/fonts";
 
 export default function RootLayout({
   children,
@@ -9,7 +10,7 @@ export default function RootLayout({
     <html>
       <body>
         <h1 className="text-5xl mb-2">Title</h1>
-        {children}
+        <div className={`${comic.className}`}>{children}</div>
       </body>
     </html>
   );
