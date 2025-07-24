@@ -6,8 +6,9 @@ import clsx from "clsx";
 
 export default function NavLinks() {
   const links = [
+    { name: "write", href: "/dashboard" },
+    { name: "read", href: "/dashboard/read" },
     { name: "invoice", href: "/dashboard/invoice" },
-    { name: "hoge", href: "/dashboard/hoge" },
   ];
   const pathname = usePathname();
   return (
