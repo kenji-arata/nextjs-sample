@@ -8,7 +8,7 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <body>
+      <body cz-shortcut-listen={undefined}>
         <h1 className="text-5xl mb-2">Title</h1>
         <div className={`${comic.className}`}>{children}</div>
       </body>
